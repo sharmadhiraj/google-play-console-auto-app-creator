@@ -1,5 +1,12 @@
 # Google Play Console Auto App Creator
 
+**_Google Login cannot be automated using web automation tools such as Selenium and pyppeteer due to security measures
+implemented by Google.
+Therefore, the current solution is not viable.
+The next attempt will involve exploring implementation options using a Chrome extension._**
+
+<hr>
+
 "**Google Play Console Auto App Creator**" is a powerful automation tool designed to streamline the app deployment
 process in Google Play Console.
 This user-friendly tool not only creates applications on Google Play Console but also efficiently fills in the necessary data, simplifying the app deployment workflow.
@@ -13,10 +20,12 @@ automation.
 
 ### Setup
 
-Install Packages`pip3 install -r requirements.txt`
+Install packages by running command
+`pip3 install -r requirements.txt`
 
 ### Run
 
-Run `python3 main.py`
+Run command
+`python3 main.py`
 
 # Work In Progress .......
